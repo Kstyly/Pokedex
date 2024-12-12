@@ -1,0 +1,114 @@
+@import url('https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: rgb(10, 10, 10);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+h1 {
+    margin: 10px;
+    letter-spacing: 5px;
+}
+
+.pokeContainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.pokemom {
+    background-color: rgb(10, 10, 10);
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgb(0, 0, 0, 0.8);
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.imgContainer {
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+}
+
+.info {
+    margin-top: 20px;
+}
+
+.number {
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.name {
+    margin: 15px 0 7px;
+    letter-spacing: 1.2px;
+}
+
+
+.grass {
+    color: black;
+    background-color: rgb(108, 221, 108);
+    border-radius: 30px;
+    letter-spacing: 2px;
+    margin: 5px;
+}
+
+.poison {
+    background-color: rgb(140, 42, 153);
+    border-radius: 30px;
+    letter-spacing: 2px;
+    margin: 5px;
+}
+
+.water {
+    background-color: rgb(47, 130, 255);
+    border-radius: 30px;
+    letter-spacing: 2px;
+    margin: 5px;
+}
+
+.fire {
+    color: black;
+    background-color: rgb(255, 98, 36);
+    border-radius: 30px;
+    letter-spacing: 2px;
+    margin: 5px;
+}
+
+.flying {
+    color: black;
+    background-color: rgb(131, 205, 255);
+    border-radius: 30px;
+    letter-spacing: 2px;
+    margin: 5px;
+}
+
+.bug {
+    background-color: rgb(36, 75, 31);
+    border-radius: 30px;
+    letter-spacing: 2px;
+    margin: 5px;
+}
